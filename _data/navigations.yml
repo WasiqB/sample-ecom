@@ -1,0 +1,7 @@
+main:
+  - title: Home
+    url: /
+  - title: About
+    children:
+      - title: About Us
+        url: /about
