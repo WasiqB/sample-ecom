@@ -1,12 +1,4 @@
-<link rel="stylesheet" href="assets/css/linearicons.css">
-<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-<link rel="stylesheet" href="assets/css/themify-icons.css">
-<link rel="stylesheet" href="assets/css/bootstrap.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.css">
-<link rel="stylesheet" href="assets/css/nice-select.css">
-<link rel="stylesheet" href="assets/css/nouislider.min.css">
-<link rel="stylesheet" href="assets/css/ion.rangeSlider.css" />
-<link rel="stylesheet" href="assets/css/ion.rangeSlider.skinFlat.css" />
-<link rel="stylesheet" href="assets/css/magnific-popup.css">
-<link rel="stylesheet" href="assets/css/main.css">
+{% for css in site.stylesheeets %}
+  <link href="{{ css | absolute_url }}" rel="stylesheet">
+{% endfor %}
 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.css" />
