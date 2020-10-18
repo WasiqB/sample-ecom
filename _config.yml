@@ -35,15 +35,8 @@ snipcart:
 stylesheeets:
   - assets/css/main.css
   - assets/css/linearicons.css
-  - assets/css/font-awesome.min.css
   - assets/css/themify-icons.css
-  - assets/css/bootstrap.css
-  - assets/css/owl.carousel.css
-  - assets/css/nice-select.css
-  - assets/css/nouislider.min.css
-  - assets/css/ion.rangeSlider.css
   - assets/css/ion.rangeSlider.skinFlat.css
-  - assets/css/magnific-popup.css
 
 webrick:
   headers:
