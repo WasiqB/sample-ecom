@@ -30,9 +30,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 snipcart:
-  key: SNIPCART_TEST_KEY
+  key: NWU2Y2EyM2EtNzc4MC00ODhjLWJlNDctMjBiYTA0NDU3OTRlNjM3MzgzNzU0ODQ2MDIyMDEz
 
 stylesheeets:
+  - assets/css/main.css
   - assets/css/linearicons.css
   - assets/css/font-awesome.min.css
   - assets/css/themify-icons.css
@@ -43,27 +44,12 @@ stylesheeets:
   - assets/css/ion.rangeSlider.css
   - assets/css/ion.rangeSlider.skinFlat.css
   - assets/css/magnific-popup.css
-  - assets/css/main.css
-
-scripts:
-  - assets/js/vendor/jquery-2.2.4.min.js
-  - assets/js/vendor/bootstrap.min.js
-  - assets/js/jquery.ajaxchimp.min.js
-  - assets/js/jquery.nice-select.min.js
-  - assets/js/jquery.sticky.js
-  - assets/js/nouislider.min.js
-  - assets/js/countdown.js
-  - assets/js/jquery.magnific-popup.min.js
-  - assets/js/owl.carousel.min.js
-  - assets/js/gmaps.min.js
-  - assets/js/main.js
 
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
