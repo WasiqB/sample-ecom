@@ -32,12 +32,6 @@ github_username:  jekyll
 snipcart:
   key: NWU2Y2EyM2EtNzc4MC00ODhjLWJlNDctMjBiYTA0NDU3OTRlNjM3MzgzNzU0ODQ2MDIyMDEz
 
-stylesheeets:
-  - assets/css/main.css
-  - assets/css/linearicons.css
-  - assets/css/themify-icons.css
-  - assets/css/ion.rangeSlider.skinFlat.css
-
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
@@ -46,5 +40,8 @@ webrick:
 plugins:
   - jekyll-feed
 
+collections:
+  - products
+  
 include:
   - _pages
